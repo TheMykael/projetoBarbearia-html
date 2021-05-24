@@ -1,0 +1,290 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Pagina de contato*/
+header {
+	background: #BBB;
+	padding: 20px 0;
+}
+
+.container_topo {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	transition: 0.5s all;
+}
+
+nav a:hover {
+	color: #C78C19;
+}
+
+.lista_produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.lista_produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	border-radius: 10px;
+	transition: 0.5s all;
+}
+
+.lista_produtos li:hover {
+	border-color: #C78C19;
+}
+
+.lista_produtos li:active {
+	border-color: #088C19;
+}
+
+.lista_produtos li:hover h2 {
+	transform: scale(1.2);
+}
+
+.lista_produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+
+.produto_descricao {
+	font-size: 18px;
+}
+
+.produto_preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("../images/bg.jpg");
+	padding: 40px 0;
+}
+
+.footer_copyright {
+	color: #FFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+/*Pagina de contato */
+main {
+	
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.asterisco_formulario:after {
+	content: " *";
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.input_padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.input_checkbox {
+	margin:  20px 0;
+}
+
+p.campo_obrigatorio {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+p.campo_obrigatorio:before {
+	content: "* ";
+	font-size: 22px;
+}
+
+.input_enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.input_enviar:hover {
+	background: #C78C19;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555;
+	color: #FFF;
+	font-weight: bold;
+}
+
+th, td {
+	border: 1px solid #000;
+	padding: 8px 15px;
+}
+
+/*Pagina de inicio */
+.banner_principal {
+	width: 100%;
+}
+
+.titulo_principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	text-shadow: 2px 2px 6px #3c241e;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin:  0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagem_utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888);
+}
+
+.mapa_conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888;
+}
+
+.conteudo_beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista_beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens_lista {
+	line-height: 1.5;
+}
+
+.itens_lista:first-child {
+	font-weight: bold;
+}
+
+.itens_lista:before {
+	content: "✂ ";
+}
+
+.imagem_beneficios {
+	width: 60%;
+	opacity: 1;
+	box-shadow: 10px 10px 10px 0px #171514, -5px -5px 20px 0px #3c241e;
+	transition: 0.4s;
+}
+
+.imagem_beneficios:hover {
+	opacity: 0.5;
+	border-radius: 50%;
+}
+
+.video_conteudo {
+	width: 560px;
+	margin: 1em auto;
+}
+
+@media screen and (max-width: 480px) {
+	.container_topo, .principal, .conteudo_beneficios , .mapa_conteudo, .video_conteudo {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista_beneficios, .imagem_beneficios {
+		width: 100%;
+	}
+}

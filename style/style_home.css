@@ -1,0 +1,50 @@
+.titulo_principal {
+	padding-left: 20px;
+}
+
+#banner_principal {
+	width: 100%;
+}
+
+.principal {
+	background: #CCC;
+	padding: 30px;
+}
+
+.titulo_centralizado {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#paragrafo_missao {
+	text-align: center;
+	font-size: 20px;
+}
+
+#destaque_missao {
+	text-align: center;
+	color: #EE0000;
+}
+
+.beneficios {
+	background: #FFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.lista_beneficios {
+	font-style: italic;
+}
+
+.imagem_beneficios {
+	width: 50%;
+}
